@@ -1,0 +1,90 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.auth-form {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.auth-form h1 {
+  margin-bottom: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4361ee;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #3a56d4;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.error-message {
+  color: #e63946;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #2a9d8f;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.auth-message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-message a {
+  color: #4361ee;
+  text-decoration: none;
+}
+
+.auth-message a:hover {
+  text-decoration: underline;
+}
